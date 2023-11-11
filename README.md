@@ -1,35 +1,11 @@
-# project-test
+# vr全景看房项目
+该项目使用的技术栈为vue3+three.js+gsap动画库
 
-This template should help get you started developing with Vue 3 in Vite.
+## 实现的功能
 
-## Recommended IDE Setup
+1.各个场景的全景漫游（第一人称视角浏览场景）
+2.在三维全景空间中添加可交互的标记热点（随摄像机视角的移动而变化的标签等）
+3.三维空间中热点的显示隐藏可见性检测（当热点不在摄像机视角内则会隐藏）
+4.加载多个全景场景，并实现丝滑的全景图之间的漫游过渡效果（可通过右侧按钮切换场景）
+5.通过实时计算摄像机与控制器的夹角，来实现在线看房小地图中代表人物的亮点的变动。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-yarn
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-yarn dev
-```
-
-### Compile and Minify for Production
-
-```sh
-yarn build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
